@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testNG">
+    <classes>
+      
+      <class name="teenSMART_vanillaPath.programOverviewTest"/>
+      <class name="teenSMART_vanillaPath.startingTheConversationTest"/>
+      <class name="teenSMART_vanillaPath.beforeYouStartYourEngineTest"/>
+      <class name="teenSMART_vanillaPath.visualAwarenessTest"/>
+      <class name="teenSMART_vanillaPath.hazardRecognitionTest"/>
+      <class name="teenSMART_vanillaPath.speedAndSpaceTest"/>
+      <class name="teenSMART_vanillaPath.riskPerceptionTest"/>
+      <class name="teenSMART_vanillaPath.gapAnalysisTest"/>
+      <class name="teenSMART_vanillaPath.criticalDecisionMakingTest"/>
+      <class name="teenSMART_vanillaPath.lifestyleAndDistractedDrivingTest"/>
+      <!--
+      <class name="teenSMART_vanillaPath.summaryAndCertificationTest"/>
+      <class name="teenSMART_vanillaPath.certificationPOVTest"/>
+      -->
+      
+    </classes>
+  </test> <!-- testNG -->
+</suite> <!-- Suite -->
